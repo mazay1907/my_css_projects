@@ -1,0 +1,410 @@
+body {
+    margin:0;
+    font-family: 'Arial', sans-serif;
+    width:100%;
+    background: #fff;
+}
+ul, li{margin:0; padding:0;}
+h1, h2, h3{margin:0; }
+p {margin:0; }
+input {margin:0; padding:0;}
+a {text-decoration: none;
+    color: #ffffff;}
+.cliarfix::after {
+    content: "";
+    clear:both;
+    display: block;
+}
+.w-holder {
+    max-width: 940px;
+    margin:0 auto;
+    }
+
+.header {
+    padding-top:10px;
+    padding-bottom: 30px;
+}
+
+.ping {color: #d34272;}
+.green{color:#1dbb90;}
+.logo {
+    float:left;
+    display: block;
+    text-align: center;
+}
+.header h1 {
+    font-size: 32pt;
+    padding-bottom:0;
+}
+#slogan {
+    font-size: 10pt;
+    color:#858585;
+
+}
+
+.header-text {
+    float:right;
+    display: block;
+}
+.icons {
+    float:left;
+    display:inline-block;
+    padding-top:8px;
+    }
+.icon {
+    display: block;
+    padding:17px;
+    float:left;
+    margin-right:7px;
+}
+
+.Flickr {
+    background: #d34272 url(../images/social_icons.png) no-repeat 9px 50% ;
+
+}
+.StumbleUpon {
+    background: #1dbb90 url(../images/social_icons.png) no-repeat -27px 50% ;
+    }
+.fb {
+    background: #d34272 url(../images/social_icons.png) no-repeat -62px 50% ;
+    }
+.twitter {
+    background: #1dbb90 url(../images/social_icons.png) no-repeat -97px 50% ;
+    }
+
+.left{
+    float:left;
+}
+.number {
+    font-size: 23pt;
+}
+.header-text img {
+    padding:5px 10px 0 10px;
+    }
+.header-text span{
+    line-height: 50px;
+}
+.call-text {
+    font-size: 19pt;
+}
+
+.slider {
+    background: url(../images/slider_bg.gif) repeat-x;
+}
+.relative {
+    position:relative;
+}
+
+.top-part {
+    padding-top: 35px;
+    width:100%;
+
+}
+.mac {
+    float:left;
+    width:50%;
+    /*position:absolute;*/
+    /*left: -50px;*/
+    /*top: 51px;*/
+    margin:64px 0 30px -50px;
+
+}
+.mac img{
+    width:100%;
+}
+.slider-text {
+    width:45%;
+    float:right;
+    padding: 50px 20px 60px 0;
+}
+.slider-text h2 {
+    font-size: 25pt;
+    color:#fff;
+    margin-bottom:15px;
+}
+.slider-text p {
+    font-size: 15pt;
+    color:rgba(255,255,255,.5);
+}
+.slider-text p span {
+    color:#fff;
+}
+
+.buttons {
+    width:45%;
+    float:right;
+    padding: 38px 20px 45px 0;
+}
+.buttons div {
+    float:right;
+}
+.buttons a {
+    padding:15px 25px;
+}
+.buttons a:first-child {
+    margin-right:25px;
+}
+
+a:hover{
+    background-color:rgba(0,0,0,.7);
+}
+.content1 {
+    padding-top:20px;
+}
+h3 {
+    font-size:26pt;
+    text-align: center;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.content-block {
+    width:31%;
+    font-size:12pt;
+    margin-left: 3.5%;
+    float:left;
+}
+.content-block:first-child {
+    margin-left: 0;
+}
+
+.title {
+    width:70%;
+    font-size:18pt;
+    float:right;
+    margin-bottom:20px;
+}
+
+.calendar, .search, .settings {
+    width:30%;
+    float:left;
+    height: 65px;
+}
+.calendar {
+    background: #fff url(../images/content_icon.png) no-repeat 0 0 ;
+
+}
+.search {
+    background: #fff url(../images/content_icon.png) no-repeat -107px 0 ;
+}
+
+.settings {
+    background: #fff url(../images/content_icon.png) no-repeat -207px 0 ;
+}
+.look-at-images{
+    width:23.5%;
+    margin-right:2%;
+    float:left;
+
+}
+.look-at-images1  {
+    margin-right:0;
+    width:23.5%;
+    float:left;
+}
+
+.content2-block {
+    width:31%;
+    font-size:12pt;
+    margin-left: 3.5%;
+    float:left;
+    padding: 0 5%;
+    box-sizing: border-box;
+    color:#fff;
+}
+.content2-block:first-child {
+    margin-left: 0;
+}
+.content2-block ul{
+    list-style-image: url(../images/marker.png);
+}
+
+.content2-block p{
+    margin: 25px 0;
+    font-size:110%;
+    text-align:center;
+
+}
+.price {
+    width:100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    text-align:center;
+}
+.price span {
+    font-size:130%;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.content2-block ul li{
+    margin-bottom:20px;
+}
+
+.btn_buy1{
+    padding:10px 15px;
+    margin-top:10px;
+    margin-bottom:20px;
+    font-size:12pt;
+    width:50%;
+    float:right;
+    text-align:center;
+}
+.green-bg {
+    background: #1dbb90;
+}
+.ping-bg {
+    background: #d34272;
+}
+.grey-bg {
+    background: #474747;
+}
+.what-say h3{
+    text-align: left;
+}
+.what-say {
+    width:45%;
+    float:left;
+    padding-right: 4%;
+    margin-bottom: 20px;
+
+}
+.comment {
+    margin-bottom: 20px;
+}
+.comment img {
+    float:left;
+}
+
+.comment div {
+    margin-left: 65px;
+}
+.pad {
+    padding-top: 8px;
+}
+.what-say iframe {
+    width:100%;
+}
+
+.footer-text {
+    width:30%;
+    color:#fff;
+    font-size: 14pt;
+    padding:20px 0;
+    float:left;
+}
+.footer-text span{
+    font-size: 18pt;
+
+
+}
+.search-form {
+    float: right;
+    padding-top:20px;
+}
+input {
+    vertical-align: middle;
+    padding:8px;
+    }
+.input-field {
+    width: 300px;
+    margin-right: -5px;
+}
+.submit {
+    background: #fff;
+    padding:16px;
+}
+
+.bottom {
+    padding:35px 0;
+}
+.bottom p {
+    float: left;
+}
+.links {
+    float:right;
+}
+.links a {
+    color:#000;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+@media (max-width: 960px) {
+
+    /*??? ??????? ??? ????? ??? ?????? ?????  ??????????? ?? ???????
+     ? ??????? ?? ????? ?????? ?????????*/
+    .header-text {
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .logo, .icons, .width100 {
+        width: 100%;
+
+    }
+
+    .icons, .width100 {
+        margin: 0 auto;
+    }
+    /* ????? ??????? ??? ????? */
+}
+@media (max-width:896px) {
+    .buttons {
+        padding: 10px 20px 37px 0;
+}
+}
+@media (max-width: 880px) {
+    .price span{
+        display:block;
+    }
+    .what-say h3 {
+        font-size: 20pt;
+    }
+}
+@media (max-width: 810px) {
+    .w-holder {
+        padding-left:5px;
+        padding-right: 5px;
+    }
+    .mac {
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .mac img {
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    .slider-text {
+        width: 88%;
+        float: none;
+        padding: 0;
+        margin: 10px auto 25px auto;
+        text-align: center;
+    }
+
+    .slider-text h2 {
+        font-size: 20pt;
+        margin-bottom: 5px;
+    }
+
+    .slider-text p {
+        font-size: 12pt;
+        color: rgba(255,255,255,.8);
+    }
+    .buttons {
+        float: none;
+        margin: 0 auto;
+        padding: 23px 0 30px 0; /*??? ??????? ???? ?????? ????? ?????? ??? ????????? ???????*/
+    }
+    .buttons div {
+        float: none;
+    }
+}
+@media (max-width: 750px) {
+    .buttons a {
+        padding: 8px 9px;
+    }
+}
